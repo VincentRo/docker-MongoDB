@@ -8,5 +8,3 @@ VOLUME [ "/data/db" ]
 
 ENTRYPOINT ["/usr/bin/mongod"]
 EXPOSE 27017
-
-#sudo docker run --name mongodb -v /home/docker/mongodb/data/:/data/db/ -d mongodb
